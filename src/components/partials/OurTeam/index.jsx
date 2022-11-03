@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bestEmployee from "./img/person-01.png";
-import teamMate01 from "./img/person-02.png";
-import teamMate02 from "./img/person-03.png";
-import teamMate03 from "./img/person-04.png";
-import teamMate04 from "./img/person-05.png";
-import teamMate05 from "./img/person-06.png";
-import teamMate06 from "./img/person-07.png";
-import teamMate07 from "./img/person-08.png";
-import teamMate08 from "./img/person-09.png";
+import bestEmployee from "/person-01.png";
+import teamMate01 from "/person-02.png";
+import teamMate02 from "/person-03.png";
+import teamMate03 from "/person-04.png";
+import teamMate04 from "/person-05.png";
+import teamMate05 from "/person-06.png";
+import teamMate06 from "/person-07.png";
+import teamMate07 from "/person-08.png";
+import teamMate08 from "/person-09.png";
 
 const teamMates = [
   { image: teamMate01, background: "green-02" },
@@ -51,9 +51,7 @@ const BestEmployee = () => {
                 in reprehenderit in voluptate id est laborum.
               </p>
 
-              <Link className="btn btn-primary w-fit mt-3">
-                Learn More
-              </Link>
+              <Link className="btn btn-primary w-fit mt-3">Learn More</Link>
             </div>
 
             <div className="bg-blue-02">
